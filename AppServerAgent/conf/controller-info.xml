@@ -12,7 +12,7 @@
     If you are using a saas controller, the ssl port is 443
     This is the same port that you use to access the AppDynamics browser based User interface.
     This can be overridden with the system property '-Dappdynamics.controller.port' -->
-    <controller-port>80</controller-port>
+    <controller-port>443</controller-port>
 
     <!-- This specifies if the AppDynamics agent should use SSL(HTTPS) to connect to the Controller. If you set this to true,
     the controller port property above should be set to the HTTPs port of the Controller.
